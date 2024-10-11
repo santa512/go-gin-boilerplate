@@ -5,12 +5,13 @@ import (
 	"log"
 	"time"
 
+	"go-gin-boilerplate/db"
+	"go-gin-boilerplate/forms"
+
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbattribute"
-	"github.com/satori/go.uuid"
-	"github.com/vsouza/go-gin-boilerplate/db"
-	"github.com/vsouza/go-gin-boilerplate/forms"
+	uuid "github.com/satori/go.uuid"
 )
 
 type User struct {

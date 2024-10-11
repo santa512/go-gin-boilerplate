@@ -1,9 +1,10 @@
 package server
 
 import (
+	"go-gin-boilerplate/controllers"
+	"go-gin-boilerplate/middlewares"
+
 	"github.com/gin-gonic/gin"
-	"github.com/vsouza/go-gin-boilerplate/controllers"
-	"github.com/vsouza/go-gin-boilerplate/middlewares"
 )
 
 func NewRouter() *gin.Engine {

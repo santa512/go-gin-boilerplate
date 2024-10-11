@@ -1,4 +1,4 @@
-package: github.com/vsouza/go-gin-boilerplate
+package: github.com/santa512/go-gin-boilerplate
 import:
 - package: github.com/aws/aws-sdk-go
   version: ^1.12.67

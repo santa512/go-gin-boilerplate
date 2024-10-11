@@ -1,0 +1,10 @@
+mongodb:
+  uri: "mongodb+srv://toothfairy114:TIIXdRit8BMnHtc5@doggo.l43nj.mongodb.net/?retryWrites=true&w=majority&appName=Doggo"
+  database: "messaging_db"
+  username: "toothfairy114"
+  password: "TIIXdRit8BMnHtc5"
+
+server:
+  host: "localhost"
+  port: 8080
+  protocol: "http"

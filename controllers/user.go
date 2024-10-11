@@ -1,9 +1,11 @@
 package controllers
 
 import (
-	"github.com/gin-gonic/gin"
-	"github.com/vsouza/go-gin-boilerplate/models"
 	"net/http"
+
+	"go-gin-boilerplate/models"
+
+	"github.com/gin-gonic/gin"
 )
 
 type UserController struct{}

@@ -1,6 +1,6 @@
 package server
 
-import "github.com/vsouza/go-gin-boilerplate/config"
+import "go-gin-boilerplate/config"
 
 func Init() {
 	config := config.GetConfig()
